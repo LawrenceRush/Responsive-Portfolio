@@ -1,0 +1,272 @@
+body{
+    font-family: "apercu",sans-serif;
+    background-image: url("../images/gravel.png");
+    
+}
+h1{
+   background-color:  #4AAAA5;
+   color: white;
+   padding: 10px 10px 10px 10px;
+   display: inline-block;
+   margin-left: 25vh;
+   margin-top:10px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+nav {
+    display: inline-block;
+    text-align: right;
+    margin-left: 0;
+}
+
+#nav-container{
+    
+    
+    padding: 25px 10px 10px 10px;
+    display: inline-block;
+    margin-top:10px;
+    margin-right:25vh;
+    
+    
+    
+}
+
+a{
+    color: rgb(175, 170, 170); 
+    text-decoration: none;
+    padding-left: .7em;
+    
+}
+
+.border-right{
+border-right: solid .1em;
+padding-right: .9em;
+height:100px;
+
+}
+
+
+#header{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+#middle{
+    padding-top:45px;
+}
+
+#main-content{
+    
+
+    display:block;
+    overflow:auto;
+    background-color:#FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:50%;
+    margin:0 auto;
+}
+
+#footer{
+    position: fixed;
+    bottom:0;
+    background-color: #4AAAA5;
+    height: 7%;
+    width:100%;
+    
+}
+
+#footer-inner{
+    position: absolute;
+    background-color: rgb(71, 71, 71);
+    bottom:0px;
+    height: 90%;
+    width:100%;
+    color: rgb(175, 170, 170);
+    text-align:center;
+    
+}
+
+#footer-text{
+    margin-top:3vh;
+}
+#indent{
+    margin:20px 20px;
+}
+
+h2{
+    color: #4AAAA5
+    
+}
+#decoration{
+    background-color:  rgb(175, 170, 170);
+    height:2px;
+    width:100%;
+    margin-top: 15px;
+    margin-bottom: 1em;
+}
+
+#profile-image{
+    height: 150px;
+    width: 150px;
+    float:left;
+    padding: 5px 15px 5px 5px;
+    border-radius: 25%;
+}
+
+.p-formatting{
+    
+    line-height: 2em;
+    color: rgb(175, 170, 170);
+}
+
+#form-heading{
+    color: rgb(175, 170, 170);
+}
+
+#form-formatting{
+    width:100%;
+    height: 21px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#text-area{
+     width:100%;
+     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.port-image{
+    height:125px;
+    width: 125px;
+}
+
+#grid-container{
+    display:grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 130px 130px 130px;
+    justify-content: space-evenly;
+    grid-row-gap:10px;
+    
+
+    
+    
+
+}
+
+.grid-item{
+    padding-top: 87px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    }
+
+.grid-item1{
+    background-image: url(../images/placeholder1.jpg);
+    background-size: contain;
+    }
+.grid-item2{
+    background-image: url(../images/placeholder2.jpg);
+    background-size: contain;
+    }
+
+.grid-item3{
+    background-image: url(../images/placeholder3.jpg);
+    background-size: contain;
+    
+}
+.grid-item4{
+    background-image: url(../images/placeholder4.jpg);
+    background-size: contain;
+    
+}
+.grid-item5{
+
+background-image: url(../images/placeholder5.jpg);
+background-size: contain;
+    }
+
+#middle-port{
+    padding-top:20px;
+}
+
+.img-title{
+    height:22px;
+    width:100%;
+    background-color: #4AAAA5;
+    
+    color:white;
+    text-align: center;
+    line-height: 1.5em;
+    
+
+} 
+.border{
+    border: 1px solid black;
+}
+
+#addButton{
+    
+    background-color: #4AAAA5;
+    color:white;
+    margin: 0 auto;
+    border:none;
+    padding:5px;
+    width: 10%;
+    display:block;
+}
+
+@media only screen and (max-width: 980px) {
+  #main-content {
+    margin-left: 25vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main-content {
+    margin: 0 auto;
+    width: 95%;
+  }
+  nav{
+      min-width:230.16px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #main-content {
+    margin: 0 auto;
+    width: 95%;
+    
+  }
+  #nav-container{
+      display:block;
+      width:100%;
+      text-align: center;
+      margin-top: 0;
+  }
+  h1{
+      display:block;
+      width:100%;
+      margin-left:0;
+      text-align:center;
+      margin-top: 0px;
+      
+  }
+  #header{
+    display:block;
+  }
+  #profile-image{
+    height: 250px;
+    width: 250px;
+    display:block;
+    padding: 5px 15px 5px 5px;
+    border-radius: 25%;
+    float: none;
+    margin: 0 auto;
+}
+}
